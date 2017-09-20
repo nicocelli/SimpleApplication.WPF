@@ -3,10 +3,32 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SimpleApplication.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="MainWindow" Height="382.169" Width="566.176">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Command="Cut">Arquivo</Button>
+                <Button Command="Cut">Editar</Button>
+                <Button Command="Cut">Ações</Button>
+                <Button Command="Cut">Ferramentas</Button>
+            </ToolBar>
+        </ToolBarTray>
         
-    </Grid>
+        <ToolBarTray DockPanel.Dock="Left" Width="150">
+            <ToolBar>
+                <Menu>
+                    <MenuItem>asasas</MenuItem>
+                </Menu>
+            </ToolBar>
+        </ToolBarTray>
+
+        <DockPanel>
+            <ListView></ListView>
+        </DockPanel>
+
+        
+    </DockPanel>
+
+   
 </Window>
